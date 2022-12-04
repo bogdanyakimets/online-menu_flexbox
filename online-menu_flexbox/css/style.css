@@ -1,0 +1,140 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #E0C777;
+}
+    
+
+.color {
+    background-color: #A18F55;
+    width: 100%;
+    height: 724px;
+}
+.dots {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.menu__title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.menu__line {
+    margin: 0 auto;
+    width: 996px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #706540;
+}
+.menu__subtitle {
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.price {
+    margin-top: 100px;
+}
+.price__gram {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 523px;
+}
+
+.background {
+    margin-top: -1600px;
+}
+.background__left {
+    width: 500px;
+    height: 500px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: flex-start;
+    pointer-events: none
+}
+
+.background__right {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+}
+
+
+
+.dishes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: space-between;
+}
+
+.dishes__img {
+    width: 129px;
+    height: 132px;
+    background-color: #A18F55;
+}
+.dishes__title {
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.dishes__subtitle {
+    margin-top: 51px;
+    margin-left: -95px;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+.footer__line {
+    margin: 0 auto;
+    width: 1106px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #706540;
+}
+
+.footer__phone {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: -820px;
+}
+
+.footer__adres {
+    margin-top: -40px;
+    margin-left: 820px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.footer__social {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+    margin-top: 30px;
+    width: 200px;
+    
+}
+
