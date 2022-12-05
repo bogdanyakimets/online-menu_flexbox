@@ -58,6 +58,7 @@ body {
 
 .background {
     margin-top: -1600px;
+    width: 100%;
 }
 .background__left {
     width: 500px;
@@ -71,9 +72,8 @@ body {
 .background__right {
     width: 500px;
     height: 500px;
-    display: flex;
-    justify-content: flex-end;
     pointer-events: none;
+    margin-left: 66%;
 }
 
 
